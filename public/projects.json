@@ -1,62 +1,37 @@
 [
     {
         "id": 1,
-        "title": "Finance",
-        "category": "Full stack",
-        "images": "images/mee.jpg"
+        "title": "Whimsy Tales",
+        "category": "Web Application",
+        "images": "https://imgcdn.stablediffusionweb.com/2024/4/5/91a8e410-839c-4b0b-894f-17cce97037ed.jpg",
+        "url": "https://github.com/imShubh03/Whimsy-Tales" 
     },
     {
         "id": 2,
-        "title": "Finance",
-        "category": "Machine Learning",
-        "images": "images/mee.jpg"
+        "title": "Portfolio",
+        "category": "Web Application",
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmLQ1liZsB1dJTPSd_hBBdasqOFNXgv-7AA&s",
+        "url": "https://github.com/imShubh03/Personal-Portfolio"
     },
     {
         "id": 3,
-        "title": "Finance",
-        "category": "DSA",
-        "images": "images/mee.jpg"
+        "title": "Predicting Pollutants",
+        "category": "Machine Learning",
+        "images": "https://png.pngtree.com/template/20220516/ourmid/pngtree-air-pollution-reduction-word-concepts-banner-image_1519263.jpg",
+        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Estimating%20Pollutant%20Levels%20of%20Air%20Pollutants" 
     },
     {
         "id": 4,
-        "title": "Health",
-        "category": "Full stack",
-        "images": "images/mee.jpg"
+        "title": "Sentiment Classification",
+        "category": "Machine Learning",
+        "images": "https://static.vecteezy.com/system/resources/previews/022/731/552/non_2x/audience-sentiment-analysis-word-concepts-dark-blue-banner-marketing-infographics-with-editable-icons-on-color-background-isolated-typography-illustration-with-text-vector.jpg",
+        "url": "https://github.com/imShubh03/Sentiment-Analysis"  
     },
     {
         "id": 5,
-        "title": "Health",
+        "title": "Credit Card Segmentation",
         "category": "Machine Learning",
-        "images": "images/mee.jpg"
-    },
-    {
-        "id": 6,
-        "title": "Health",
-        "category": "DSA",
-        "images": "images/mee.jpg"
-    },
-    {
-        "id": 7,
-        "title": "Education",
-        "category": "Full stack",
-        "images": "images/mee.jpg"
-    },
-    {
-        "id": 8,
-        "title": "Education",
-        "category": "Machine Learning",
-        "images": "images/mee.jpg"
-    },
-    {
-        "id": 9,
-        "title": "Education",
-        "category": "DSA",
-        "images": "images/mee.jpg"
-    },
-    {
-        "id": 10,
-        "title": "Technology",
-        "category": "Full stack",
-        "images": "images/mee.jpg"
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvMmOs9NA0kZRPwtjTVe9U92LSs_qLKTxZbg&s",
+        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Credit%20Card%20Customer%20Segmentation" 
     }
 ]

@@ -1,68 +1,108 @@
 import React from 'react'
-import { FaBookReader } from "react-icons/fa";
+import { FaBookReader, FaLaptopCode } from "react-icons/fa";
 import TimelineData from './TimelineData';
-import { FaLaptopCode } from "react-icons/fa";
-import html from "../../../public/images/html1.png"
 
 
 const Education = () => {
     return (
         <section>
             <header>
-                <h2 className=' text-white text-2xl'>Education</h2>
+                <h2 className='text-white text-3xl underline'>Education</h2>
             </header>
-            <div className=' timeline mt-5'>
+            <div className='timeline mt-5'>
                 <div className='title-wrapper'>
                     <div className='icon-box'>
                         <FaBookReader />
                     </div>
-                    <h3 className=' text-white font-semibold text-xl'>My Education</h3>
+                    <h3 className='text-white font-semibold text-xl'>My Journey so for</h3>
                 </div>
-                <div className=' ml-6 space-y-0'>
+                <div className='ml-6 space-y-4'>
                     <TimelineData
-                        title="Shri guru gobind singhji instititur of techmology"
-                        date="2021=2025"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+                        title="Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded"
+                        date="2021-2025"
+                        description="Bachelor of Technology in Information Technology with a CGPA of 7.18."
+                        link="https://drive.google.com/file/d/1-l2Nif3V1kJoPRcrRLOukN0y53jvK1wR/view?usp=drive_link" // Replace with the actual link
                     />
                     <TimelineData
-                        title="Shri guru gobind singhji instititur of techmology"
-                        date="2021=2025"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+                        title="Sangameshwar College of Science, Solapur"
+                        date="2019-2021"
+                        description="Higher Secondary Certificate (HSC) with a percentage of 93.17%."
+                        link="https://drive.google.com/file/d/1zZg6Wb9FxBebGkzCXy-a-WfqWBm23nTg/view?usp=drive_link" // Replace with the actual link
                     />
                     <TimelineData
-                        title="Shri guru gobind singhji instititur of techmology"
-                        date="2021=2025"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+                        title="Shanti English Medium School, Solapur"
+                        date="2019-Passout"
+                        description="Secondary School Certificate (SSC) with a percentage of 86.40%"
+                        link="https://drive.google.com/file/d/1octxsWRIoUdIeNzSJ5PXKe9emQUp1QGw/view?usp=drive_link" // Replace with the actual link
                     />
                 </div>
             </div>
+
             {/* skills */}
             <div>
                 <header>
-                    <h3 className='text-white text-2xl ml-3 mb-3'>Skills</h3>
+                    <h3 className='text-white text-3xl ml-3 mb-3 underline'>Skills</h3>
                 </header>
-                <div className=' flex flex-col'>
+                <div className='flex flex-col space-y-7'>
                     <div className='title-wrapper flex space-x-2'>
                         <div className='icon-box'>
                             <FaLaptopCode />
                         </div>
-                        <h3 className=' text-white font-semibold text-xl py-1'>Frontend</h3>
+                        <h3 className='text-white font-semibold text-xl py-1'>Programming Languages</h3>
                     </div>
-                    <div className=' flex space-x-2 mt-3 mx-3'>
+                    <div className='flex flex-wrap gap-4 mt-3 mx-3'>
                         <img
                             className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
+                            src="https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png"
+                            alt="cpp"
                         />
                         <img
                             className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBn3Fywm9Ee6lNYe7MblsDJuxH6l15wtiNZg&s"
+                            alt="Java"
                         />
                         <img
                             className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFxLTtL-3bwkqRcHTbWfXYGG8yPHIDn_9vg&s"
+                            alt="python"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR039eLKKd8V-_0NSsMFfZ9AlEVvPNFOLfazQ&s"
+                            alt="javascript"
+                        />
+                    </div>
+                    <div className='title-wrapper flex space-x-2'>
+                        <div className='icon-box'>
+                            <FaLaptopCode />
+                        </div>
+                        <h3 className='text-white font-semibold text-xl py-1'>Web Technologies</h3>
+                    </div>
+                    <div className='flex flex-wrap gap-4 mt-3 mx-3'>
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png"
+                            alt="HTML"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jy1nSST3VvNskE1NM613-sUPsxuQkES_0Q&s"
+                            alt="CSS"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://static.javatpoint.com/tutorial/reactjs/images/reactjs-tutorial.png"
+                            alt="JavaScript"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnrLYQhtjfXWTmPIcyl_Xc7ro0C-NaLujjQg&s"
+                            alt="Node.js"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtkTUrFUZAYIRQmYHiXPi44KI-lwfF-kqUA&s"
+                            alt="Express.js"
                         />
                     </div>
 
@@ -70,28 +110,21 @@ const Education = () => {
                         <div className='icon-box'>
                             <FaLaptopCode />
                         </div>
-                        <h3 className=' text-white font-semibold text-xl py-1'>Frontend</h3>
+                        <h3 className='text-white font-semibold text-xl py-1'>Databases</h3>
                     </div>
-                    <div className=' flex space-x-2 mt-3 mx-3'>
+                    <div className='flex flex-wrap gap-4 mt-3 mx-3'>
                         <img
                             className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
+                            src="https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png"
+                            alt="mysql"
                         />
                         <img
                             className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
-                        />
-                        <img
-                            className="w-20 h-20 rounded"
-                            src={html}
-                            alt="Large avatar"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGo5WeIPga0G_6K908bTkEcwWuSZ38DT3sA&s"
+                            alt="Database"
                         />
                     </div>
                 </div>
-
-
             </div>
         </section>
     )

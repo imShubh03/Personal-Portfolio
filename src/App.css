@@ -201,6 +201,10 @@ section {
     --ionicon-stroke-width: 35px;
 }
 
+span{
+    display: inline;
+}
+
 article {
     display: none;
 }
@@ -456,7 +460,7 @@ main {
 
 .social-item .social-link {
     color: var(--light-gray-70);
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .social-item .social-link:hover {
@@ -544,7 +548,7 @@ main {
 
 .service-item {
     position: relative;
-    background: var(--border-gradient-onyx);
+    /* background: var(--border-gradient-onyx); */
     padding: 20px;
     border-radius: 14px;
     box-shadow: var(--shadow-2);
@@ -555,7 +559,7 @@ main {
     content: "";
     position: absolute;
     inset: 1px;
-    background: var(--bg-gradient-jet);
+    /* background: var(--bg-gradient-jet); */
     border-radius: inherit;
     z-index: -1;
 }

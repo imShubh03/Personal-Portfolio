@@ -8,30 +8,29 @@ const Portfolio = () => {
 
     useEffect(() => {
         fetch('projects.json').then(res => res.json()).then(data => {
-            setProjects(data)
-            setFilteredProjects(data)
-        })
+            setProjects(data);
+            setFilteredProjects(data);
+        });
     }, []);
 
     const handleFilter = (category) => {
         setSelectedCategory(category);
-        if(category === 'All'){
-            setFilteredProjects(projects)
+        if (category === 'All') {
+            setFilteredProjects(projects);
+        } else {
+            const filtered = projects.filter(project => project.category === category);
+            setFilteredProjects(filtered);
         }
-        else {
-            const filtered= projects.filter(project => project.category === category)
-            setFilteredProjects(filtered)
-        }
-    }
+    };
 
     return (
         <section>
             <header>
-                <h3 className='text-white text-2xl ml-3 mb-7'>Projects</h3>
+                <h3 className='text-white text-3xl ml-3 mb-7 underline'>Projects</h3>
             </header>
             {/* filter buttons */}
             <ul className='flex justify-start items-center gap-[25px] pl-[5px] mb-[30px]'>
-                {['All', 'Full stack', 'Machine Learning', 'DSA'].map(category => (
+                {['All', 'Web Application', 'Machine Learning', 'DSA'].map(category => (
                     <li key={category} className='filter-item'>
                         <button
                             className={category === selectedCategory ? 'active' : ''}
@@ -50,15 +49,15 @@ const Portfolio = () => {
                         <li key={project.id} className='project-item active'
                             data-category={project.category} data-filter-item
                         >
-                            <a href="#">
+                            <a href={project.url}>
                                 <figure className='project-img '>
-                                    <div className=' project-item-icon-box'>
+                                    <div className='project-item-icon-box'>
                                         <FaLink />
                                     </div>
-                                    <img src={project.images} alt="" loading='lazy' />
+                                    <img src={project.images} alt={project.title} loading='lazy' />
                                 </figure>
-                                <h3 className=' project-title'>{project.title}</h3>
-                                <p className=' project-category'>{project.category}</p>
+                                <h3 className='project-title'>{project.title}</h3>
+                                <p className='project-category'>{project.category}</p>
                             </a>
                         </li>
                     ))}
