@@ -15,7 +15,7 @@ function Socials() {
                     </a>
                 </li>
                 <li className="social-item">
-                    <a href="https://www.instagram.com/shubham17?igsh=MTdlaGpjeTR6NzQ1aw==" className="social-link">
+                    <a href="https://www.instagram.com/_shubham17_?igsh=MTdlaGpjeTR6NzQ1aw==" className="social-link">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </li>

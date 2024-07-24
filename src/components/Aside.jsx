@@ -40,7 +40,7 @@ const Aside = () => {
             <hr />
 
             <div className=" my-4">
-                <h3 className="text-white ml-7 font-thin text-xs mb-2">Connect withme over👇 </h3>
+                <h3 className="text-white ml-7 font-thin text-xs mb-2">Connect with me over👇 </h3>
                 <Socials />
             </div>
 

@@ -3,11 +3,6 @@ import Service from "./Service";
 
 const serviceData = [
     {
-        title: "Web Development",
-        icon: "/images/coding.png",
-        description: "Creating responsive and modern websites using the latest web technologies."
-    },
-    {
         title: "Frontend Development",
         icon: "/images/ux.png",
         description: "Developing the frontend of websites and applications to ensure an engaging and user-friendly interface."
@@ -16,6 +11,11 @@ const serviceData = [
         title: "Backend Development",
         icon: "/images/seo.png",
         description: "Building and maintaining the backend systems of applications, including servers, databases, and APIs."
+    },
+    {
+        title: "Problem Solving",
+        icon: "/images/coding.png",
+        description: "Applying advanced algorithms and data structures to efficiently solve complex computational problems."
     },
     {
         title: "Machine Learning",
@@ -32,7 +32,7 @@ function About() {
                 <h2 className="text-3xl text-white mb-4 px-3 mt-2 underline">About Me</h2>
             </header>
 
-            <section className="text-gray-300 text-lg space-y-5">
+            <section className="text-gray-300 text-lg space-y-5 mb-4">
                 <p >
                     Hey there! 👋 <span className="text-2xl font-bold text-blue-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From idea conception to successful launch, I'm your go-to guy! I thrive on the adrenaline rush of coding competitions and hackathons, constantly pushing boundaries and thinking outside the box. 🚀
                 </p>
@@ -46,7 +46,7 @@ function About() {
             </section>
             <hr />
 
-            <section className="mb-9">
+            <section className="mb-9 mt-4">
                 <h2 className="text-4xl mb-5 text-white underline">What I do?</h2>
                 <ul className="service-list">
                     {serviceData.map((service, index) => (

@@ -41,7 +41,7 @@ const Education = () => {
             {/* skills */}
             <div>
                 <header>
-                    <h3 className='text-white text-3xl ml-3 mb-3 underline'>Skills</h3>
+                    <h3 className='text-white text-3xl ml-3 mb-3 underline'> My Skills</h3>
                 </header>
                 <div className='flex flex-col space-y-7'>
                     <div className='title-wrapper flex space-x-2'>
@@ -91,7 +91,7 @@ const Education = () => {
                         />
                         <img
                             className="w-20 h-20 rounded"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jy1nSST3VvNskE1NM613-sUPsxuQkES_0Q&s"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcZwFtjVR3y_SCgYqplC4PtA3Cuyhk-J_ZeQ&s"
                             alt="CSS"
                         />
                         <img
@@ -126,7 +126,31 @@ const Education = () => {
                         <img
                             className="w-20 h-20 rounded"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGo5WeIPga0G_6K908bTkEcwWuSZ38DT3sA&s"
-                            alt="Database"
+                            alt="mongodb"
+                        />
+                    </div>
+
+                    <div className='title-wrapper flex space-x-2'>
+                        <div className='icon-box'>
+                            <FaLaptopCode />
+                        </div>
+                        <h3 className='text-white font-semibold text-xl py-1'>Developer Tools</h3>
+                    </div>
+                    <div className='flex flex-wrap gap-4 mt-3 mx-3'>
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZgjTI7nRojCdU8B4_gSZ3GPHZZJcUJeSAQ&s"
+                            alt="git"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://i.pinimg.com/736x/30/b1/50/30b150cd489202db131009ac9540cec0.jpg"
+                            alt="github"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkqasB3j7B3_MC7Bu2-cpKqwTfaXhHzhSDng&s"
+                            alt="postman"
                         />
                     </div>
                 </div>
