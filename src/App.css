@@ -346,6 +346,11 @@ main {
 
 .avatar-box img {
     border-radius: 20px;
+    transition: border 0.6s ease-in-out; /* Adds a smooth transition effect */
+}
+
+.avatar-box img:hover {
+    border: 4px solid green; /* Adds a green border on hover */
 }
 
 .info-content .name {
@@ -1247,6 +1252,9 @@ textarea.form-input::-webkit-resizer {
     .blog-banner-box {
         height: auto;
     }
+    .filter-item button.active {
+        color: var(--orange-yellow-crayola);
+    }
 }
 
 /**
@@ -1541,6 +1549,11 @@ textarea.form-input::-webkit-resizer {
     .blog-content {
         padding: 25px;
     }
+
+    .filter-item button.active {
+        color: var(--orange-yellow-crayola);
+    }
+
 
     /**
      * #CONTACT

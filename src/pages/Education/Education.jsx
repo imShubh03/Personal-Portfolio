@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBookReader, FaLaptopCode } from "react-icons/fa";
 import TimelineData from './TimelineData';
+import Copyright from '../../components/Copyright';
 
 
 const Education = () => {
@@ -156,6 +157,12 @@ const Education = () => {
                         />
                     </div>
                 </div>
+            </div>
+
+            <hr className=' mt-8'/>
+
+            <div>
+                <Copyright />
             </div>
         </section>
     )

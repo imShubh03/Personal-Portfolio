@@ -12,26 +12,26 @@ const Aside = () => {
                         src={"/images/Shubham.jpg"}
                         alt="Richard Hanrick"
                         width="80"
-                        className=" border-blue-50" /* This will be overridden by the CSS */
+                        className="" /* This will be overridden by the CSS */
                     />
                 </figure>
 
                 <div className="info-content">
-                    <h1 className="name" title="Shubham Sonake">
+                    <h1 className="name text-2xl" title="Shubham Sonake">
                         Shubham Sonake
                     </h1>
 
-                    <p className="title">Fullstack Developer</p>
+                    <p className="title bg-slate-700">Fullstack Developer</p>
                 </div>
 
-                <button className="info_more-btn" data-sidebar-btn>
+                <button className="info_more-btn " data-sidebar-btn>
                     <span>Show Contacts</span>
 
-                    <div className="hidden lg:block"> 
-                    <GiClawSlashes />
+                    <div className="hidden lg:block">
+                        <GiClawSlashes />
                     </div>
 
-                    <div className="block lg:hidden"> {/* This ensures Socials is only visible on screens smaller than md */}
+                    <div className="block lg:hidden">
                         <Socials />
                     </div>
                 </button>
@@ -49,6 +49,17 @@ const Aside = () => {
             <div className="sidebar-info_more">
                 <div className="separator"></div>
                 <ul className="contacts-list">
+                    <a href="https://drive.google.com/file/d/1chOnsy0kS_TDH-Q2YPjLcRW0MM8NygPL/view?usp=drive_link">
+                        <li className="contact-item">
+                            <div className="icon-box">
+                                <MdOutlineContactPage />
+                            </div>
+                            <div className="contact-info">
+                                <p className="contact-title">Resume</p>
+                                <p className=" text-xs text-white font-thin"> Click to See My CV</p>
+                            </div>
+                        </li>
+                    </a>
                     <li className="contact-item">
                         <div className="icon-box">
                             <GiMailbox />
@@ -71,18 +82,7 @@ const Aside = () => {
                             </a>
                         </div>
                     </li>
-                    <a href="https://drive.google.com/file/d/1-l2Nif3V1kJoPRcrRLOukN0y53jvK1wR/view?usp=drive_link">
-                        <li className="contact-item">
-                            <div className="icon-box">
-                                <MdOutlineContactPage />
 
-                            </div>
-                            <div className="contact-info">
-                                <p className="contact-title">Resume</p>
-                                <p className=" text-xs text-white font-thin"> Click to See My CV</p>
-                            </div>
-                        </li>
-                    </a>
 
                 </ul>
 

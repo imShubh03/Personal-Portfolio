@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaLink } from "react-icons/fa";
+import Copyright from '../../components/Copyright';
 
 const Portfolio = () => {
     const [selectedCategory, setSelectedCategory] = useState('All');
@@ -31,7 +32,7 @@ const Portfolio = () => {
             {/* filter buttons */}
             <ul className='flex justify-start items-center gap-[25px] pl-[5px] mb-[30px]'>
                 {['All', 'Web Application', 'Machine Learning', 'DSA'].map(category => (
-                    <li key={category} className='filter-item'>
+                    <li key={category} className='filter-item text-white '>
                         <button
                             className={category === selectedCategory ? 'active' : ''}
                             onClick={() => handleFilter(category)}
@@ -63,6 +64,12 @@ const Portfolio = () => {
                     ))}
                 </ul>
             </section>
+
+            <hr />
+
+            <div>
+                <Copyright />
+            </div>
         </section>
     );
 }

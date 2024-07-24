@@ -1,5 +1,6 @@
 import React from "react";
 import Service from "./Service";
+import Copyright from "../../components/Copyright";
 
 const serviceData = [
     {
@@ -59,6 +60,12 @@ function About() {
                     ))}
                 </ul>
             </section>
+
+            <hr />
+            <div>
+            <Copyright/>
+            </div>
+            
         </div>
     );
 }

@@ -1,13 +1,14 @@
 import React from 'react';
+import Copyright from '../../components/Copyright';
 
 function Contact() {
     return (
         <section className='contact'>
             <header>
-                <h3 className='text-white text-2xl ml-3 mb-3'>Contact Me</h3>
+                <h3 className='text-white text-3xl ml-3 underline'>Contact Me</h3>
             </header>
             <section>
-                <div className="container px-6 py-12 mx-auto">
+                <div className="container px-6 py-8 mx-auto">
                     <div className="p-4 py-6 rounded-lg md:p-8">
                         <form
                             action="https://api.web3forms.com/submit"
@@ -81,12 +82,10 @@ function Contact() {
                                 style={{ display: 'none' }}
                             />
 
-                            {/* Custom Confirmation / Success Page */}
-                            {/* <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> */}
 
                             <button
                                 type="submit"
-                                className="px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+                                className="px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
                             >
                                 Send message
                             </button>
@@ -94,6 +93,12 @@ function Contact() {
                     </div>
                 </div>
             </section>
+
+            <hr />
+
+            <div>
+                <Copyright />
+            </div>
         </section>
     );
 }
