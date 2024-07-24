@@ -54,6 +54,11 @@ const Education = () => {
                         <img
                             className="w-20 h-20 rounded"
                             src="https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png"
+                            alt="c"
+                        />
+                        <img
+                            className="w-20 h-20 rounded"
+                            src="https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png"
                             alt="cpp"
                         />
                         <img

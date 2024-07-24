@@ -35,7 +35,7 @@ const Aside = () => {
 
 
             <div className=" my-4">
-                <h3 className="text-white ml-7 mb-3 font-thin text-sm">Connect me over 👇 </h3>
+                <h3 className="text-white ml-7 mb-3 font-thin text-xs mb-2">Connect withme over👇 </h3>
                 <ul className="social-list">
                     <li className="social-item">
                         <a href="https://www.linkedin.com/in/shubham-sonake-410241231" className="social-link">
