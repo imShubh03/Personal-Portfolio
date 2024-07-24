@@ -38,8 +38,10 @@ const Education = () => {
                 </div>
             </div>
 
+            <hr />
+
             {/* skills */}
-            <div>
+            <div className=' mt-4'>
                 <header>
                     <h3 className='text-white text-3xl ml-3 mb-3 underline'> My Skills</h3>
                 </header>

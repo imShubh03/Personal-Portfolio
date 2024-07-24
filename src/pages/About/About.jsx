@@ -34,11 +34,11 @@ function About() {
 
             <section className="text-gray-300 text-lg space-y-5 mb-4">
                 <p >
-                    Hey there! 👋 <span className="text-2xl font-bold text-blue-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From idea conception to successful launch, I'm your go-to guy! I thrive on the adrenaline rush of coding competitions and hackathons, constantly pushing boundaries and thinking outside the box. 🚀
+                    Hey there! 👋 <span className="text-2xl font-bold text-green-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From idea conception to successful launch, I'm your go-to guy! I thrive on the adrenaline rush of coding competitions and hackathons, constantly pushing boundaries and thinking outside the box. 🚀
                 </p>
 
                 <p >
-                    <span className=" text-xl text-blue-500 underline" style={{display:'block'}}>My passion? </span> Designing and building everything from sleek websites 🌐 to fully functional products. I love diving into new technologies 🛠️ and mastering them to stay at the cutting edge of development. Whether it’s experimenting with the latest frameworks or tackling complex coding challenges, I’m always eager to expand my skill set. 🧩💻
+                    <span className=" text-xl text-green-500 underline" style={{display:'block'}}>My passion? </span> Designing and building everything from sleek websites 🌐 to fully functional products. I love diving into new technologies 🛠️ and mastering them to stay at the cutting edge of development. Whether it’s experimenting with the latest frameworks or tackling complex coding challenges, I’m always eager to expand my skill set. 🧩💻
                 </p>
                 <p>
                     I'm also deeply passionate about problem-solving 🧠 and competitive programming. 🏆🔍 I enjoy solving complex problems and participating in coding contests, which keeps me sharp and ready for any challenge that comes my way.

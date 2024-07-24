@@ -4,9 +4,9 @@ function TimelineData({ title, date, description, link }) {
     return (
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
             <li className=" ms-6">
-                <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                <span className="absolute flex items-center justify-center w-5 h-5 bg-green-600 rounded-full -start-3 ring-8 ring-orange dark:ring-green-600 dark:bg-green-600">
                     <svg
-                        className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                        className="w-2.5 h-2.5 text-blue-800 bg-pink-700 dark:text-blue-300"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
