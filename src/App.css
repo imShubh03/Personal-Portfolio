@@ -384,8 +384,9 @@ main {
     content: "";
     position: absolute;
     inset: 1px;
+    top: -10px;
     border-radius: inherit;
-    background: var(--bg-gradient-jet);
+    background: transparent;
     transition: var(--transition-1);
     z-index: -1;
 }
