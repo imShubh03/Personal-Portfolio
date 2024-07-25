@@ -12,7 +12,6 @@ const Aside = () => {
                         src={"/images/Shubham.jpg"}
                         alt="Richard Hanrick"
                         width="80"
-                        className="" /* This will be overridden by the CSS */
                     />
                 </figure>
 
