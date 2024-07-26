@@ -35,14 +35,14 @@ function About() {
 
             <section className="text-gray-300 text-lg space-y-5 mb-4">
                 <p >
-                    Hey there! 👋 <span className="text-2xl font-bold text-green-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From idea conception to successful launch, I'm your go-to guy! I thrive on the adrenaline rush of coding competitions and hackathons, constantly pushing boundaries and thinking outside the box. 🚀
+                    Hey there! 👋 <span className="text-2xl font-bold text-green-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From the time of the idea first coming to mind to the point when the launch turned out to be a success, I'm the person you should consult when anything comes to technology! I love to punch the "kintsugi" effect into my life. It means not being afraid to try to fix my mistakes rather making them work in my favor. I am adrenaline-driven when it comes to coding competitions and hackathons, which is impossible for me not to exceed deadlines and think of other solutions. 🚀
                 </p>
 
                 <p >
-                    <span className=" text-xl text-green-500 underline" style={{display:'block'}}>My passion? </span> Designing and building everything from sleek websites 🌐 to fully functional products. I love diving into new technologies 🛠️ and mastering them to stay at the cutting edge of development. Whether it’s experimenting with the latest frameworks or tackling complex coding challenges, I’m always eager to expand my skill set. 🧩💻
+                    <span className=" text-xl text-green-500 underline" style={{ display: 'block' }}>My passion? </span> Designing stylish websites 🌐 and constructing robust products are my true love. My new discovered engagement with the technology at its highest form of creative mastery accounts for competitive ranking in the field. Even if you are testing new frameworks or solving difficult coding problems, I am still confident in gaining new expertise. 🧩💻
                 </p>
                 <p>
-                    I'm also deeply passionate about problem-solving 🧠 and competitive programming. 🏆🔍 I enjoy solving complex problems and participating in coding contests, which keeps me sharp and ready for any challenge that comes my way.
+                    In addition to that, I focus on the ways of problem-solving 🧠 that's of me being crazy about competition programming, 🏆🔍 however, my passion is beyond the pale. Therefore, I am challenged by the problems I solve, and in addition, is another thing that, whether in a contest or some other event, does its part to keep me on my toes, and on point. This is the fortress of my ability to quickly capture concepts and find solutions to life's various challenges.
                 </p>
             </section>
             <hr />
@@ -63,9 +63,9 @@ function About() {
 
             <hr />
             <div>
-            <Copyright/>
+                <Copyright />
             </div>
-            
+
         </div>
     );
 }
