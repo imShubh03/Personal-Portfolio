@@ -1,7 +1,8 @@
 import React from "react";
-import { GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
+import { GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
 import { MdOutlineContactPage } from "react-icons/md";
 import Socials from "./Socials";
+
 
 const Aside = () => {
     return (
