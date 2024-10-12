@@ -3,7 +3,6 @@ import { GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
 import { MdOutlineContactPage } from "react-icons/md";
 import Socials from "./Socials";
 
-
 const Aside = () => {
     return (
         <div className="sidebar mt-0">
