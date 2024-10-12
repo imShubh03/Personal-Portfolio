@@ -10,7 +10,7 @@ const Aside = () => {
                 <figure className="avatar-box">
                     <img
                         src={"/images/Shubham.jpg"}
-                        alt="Richard Hanrick"
+                        alt="Shubham Sonake"
                         width="80"
                     />
                 </figure>
@@ -48,7 +48,7 @@ const Aside = () => {
             <div className="sidebar-info_more">
                 <div className="separator"></div>
                 <ul className="contacts-list">
-                    <a href="https://drive.google.com/file/d/1chOnsy0kS_TDH-Q2YPjLcRW0MM8NygPL/view?usp=drive_link">
+                    <a href="https://drive.google.com/file/d/1Jd8RElFwQjRv-OIELhTgJOtWaVfwvZyO/view?usp=sharing">
                         <li className="contact-item">
                             <div className="icon-box">
                                 <MdOutlineContactPage />

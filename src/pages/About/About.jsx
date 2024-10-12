@@ -35,7 +35,7 @@ function About() {
 
             <section className="text-gray-300 text-lg space-y-5 mb-4">
                 <p >
-                    Hey there! 👋 <span className="text-2xl font-bold text-green-500" >I'm Shubham Sonake ,</span> a Software Developer and Freelancer hailing from India, ready to ignite the tech scene! 💥 From the time of the idea first coming to mind to the point when the launch turned out to be a success, I'm the person you should consult when anything comes to technology! I love to punch the "kintsugi" effect into my life. It means not being afraid to try to fix my mistakes rather making them work in my favor. I am adrenaline-driven when it comes to coding competitions and hackathons, which is impossible for me not to exceed deadlines and think of other solutions. 🚀
+                    Hey there! 👋 <span className="text-2xl font-bold text-green-500" >I'm Shubham Sonake ,</span> a Software Developer hailing from India. 💥 From the time of the idea first coming to mind to the point when the launch turned out to be a success, I'm the person you should consult when anything comes to technology! I love to punch the "kintsugi" effect into my life. It means not being afraid to try to fix my mistakes rather making them work in my favor. I am adrenaline-driven when it comes to coding competitions and hackathons, which is impossible for me not to exceed deadlines and think of other solutions. 🚀
                 </p>
 
                 <p >
