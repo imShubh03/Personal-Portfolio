@@ -1,5 +1,5 @@
 import React from "react";
-import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
+import { GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
 import { MdOutlineContactPage } from "react-icons/md";
 import Socials from "./Socials";
 
