@@ -1,32 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { FaCalendarAlt, FaLink } from 'react-icons/fa';
 
-function TimelineData({ title, date, description, link }) {
+const TimelineData = ({ title, date, description, link }) => {
     return (
-        <ol className="relative border-s border-gray-200 dark:border-gray-700">
-            <li className=" ms-6 space-y-3">
-                <span className="absolute flex items-center justify-center w-5 h-5 bg-green-600 rounded-full -start-3 ring-8 ring-orange dark:ring-green-600 dark:bg-green-600">
-                    <svg
-                        className="w-2.5 h-2.5 text-blue-800 bg-pink-700 dark:text-blue-300"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                    >
-                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                </span>
-                <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+            <div className="flex justify-between items-center mb-4">
+                <h4 className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-400">
                     {title}
-                </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500 italic">
-                    {date}
-                </time>
-                <p className="mb-4 text-base font-normal text-gray-600 dark:text-gray-400">
-                    {description}
-                </p>
-            </li>
-        </ol>
-    )
-}
+                </h4>
+                <div className="flex items-center text-gray-400">
+                    <FaCalendarAlt className="mr-2" />
+                    <span className="text-sm">{date}</span>
+                </div>
+            </div>
+            <p className="text-gray-300 mb-4">{description}</p>
+        </div>
+    );
+};
 
-export default TimelineData
+export default TimelineData;

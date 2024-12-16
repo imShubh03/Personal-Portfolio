@@ -1,37 +1,51 @@
 [
     {
         "id": 1,
-        "title": "Whimsy Tales",
+        "title": "Talentry",
         "category": "Web Application",
-        "images": "https://imgcdn.stablediffusionweb.com/2024/4/5/91a8e410-839c-4b0b-894f-17cce97037ed.jpg",
-        "url": "https://github.com/imShubh03/Whimsy-Tales" 
+        "images": "https://mir-s3-cdn-cf.behance.net/projects/404/5448a8106345405.Y3JvcCwxNTMzLDExOTksNjkwLDI0Mg.jpg",
+        "url": "https://github.com/imShubh03/Talentry"
     },
     {
         "id": 2,
+        "title": "Whimsy Tales",
+        "category": "Web Application",
+        "images": "https://imgcdn.stablediffusionweb.com/2024/4/5/91a8e410-839c-4b0b-894f-17cce97037ed.jpg",
+        "url": "https://github.com/imShubh03/Whimsy-Tales"
+    },
+    {
+        "id": 3,
         "title": "Portfolio",
         "category": "Web Application",
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmLQ1liZsB1dJTPSd_hBBdasqOFNXgv-7AA&s",
         "url": "https://github.com/imShubh03/Personal-Portfolio"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Predicting Pollutants",
         "category": "Machine Learning",
         "images": "https://png.pngtree.com/template/20220516/ourmid/pngtree-air-pollution-reduction-word-concepts-banner-image_1519263.jpg",
-        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Estimating%20Pollutant%20Levels%20of%20Air%20Pollutants" 
-    },
-    {
-        "id": 4,
-        "title": "Sentiment Classification",
-        "category": "Machine Learning",
-        "images": "https://static.vecteezy.com/system/resources/previews/022/731/552/non_2x/audience-sentiment-analysis-word-concepts-dark-blue-banner-marketing-infographics-with-editable-icons-on-color-background-isolated-typography-illustration-with-text-vector.jpg",
-        "url": "https://github.com/imShubh03/Sentiment-Analysis"  
+        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Estimating%20Pollutant%20Levels%20of%20Air%20Pollutants"
     },
     {
         "id": 5,
+        "title": "Sentiment Classification",
+        "category": "Machine Learning",
+        "images": "https://static.vecteezy.com/system/resources/previews/022/731/552/non_2x/audience-sentiment-analysis-word-concepts-dark-blue-banner-marketing-infographics-with-editable-icons-on-color-background-isolated-typography-illustration-with-text-vector.jpg",
+        "url": "https://github.com/imShubh03/Sentiment-Analysis"
+    },
+    {
+        "id": 6,
         "title": "Credit Card Segmentation",
         "category": "Machine Learning",
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvMmOs9NA0kZRPwtjTVe9U92LSs_qLKTxZbg&s",
-        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Credit%20Card%20Customer%20Segmentation" 
+        "url": "https://github.com/imShubh03/Machine_Learning/tree/main/Machine%20Learning/ML%20Projects/Credit%20Card%20Customer%20Segmentation"
+    },
+    {
+        "id": 7,
+        "title": "Sudoku Solver",
+        "category": "DSA",
+        "images": "https://tr.rbxcdn.com/180DAY-45de3367c0eb3f9ca7e179ee8914cbc0/768/432/Image/Webp/noFilter",
+        "url": "https://github.com/imShubh03/Data-Structures-and-Algorithms/blob/main/Recursion/H1/sudoku.cpp"
     }
 ]

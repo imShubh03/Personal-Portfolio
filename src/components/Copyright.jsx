@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Copyright() {
-    return (
-        <>
-            <p className=' text-white flex justify-center flex-wrap my-3'> @ {new Date().getFullYear()} - Made with 💚 </p>
-        </>
-    )
-}
+const Copyright = () => (
+    <div className="text-center my-3">
+        <p className="text-white">
+            &copy; {new Date().getFullYear()} - Made with 
+            <span role="img" aria-label="love" className="mx-1">💚</span>
+        </p>
+    </div>
+);
 
-export default Copyright
+export default Copyright;
