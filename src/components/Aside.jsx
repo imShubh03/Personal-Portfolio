@@ -1,6 +1,7 @@
 import React from "react";
 import { GiMailbox, GiPhone } from "react-icons/gi";
 import { MdOutlineContactPage } from "react-icons/md";
+import { GiLinkedRings } from "react-icons/gi";
 import Socials from "./Socials";
 
 const Aside = () => {
@@ -34,9 +35,9 @@ const Aside = () => {
                     {/* Contact Information Vertical Stack */}
                     <div className="space-y-2">
                         {/* Resume */}
-                        <a 
+                        <a
                             target="_blank"
-                            href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk" 
+                            href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk"
                             className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
                         >
                             <div className="bg-blue-600 p-1 rounded-full group-hover:scale-110 transition-transform">
@@ -46,8 +47,8 @@ const Aside = () => {
                         </a>
 
                         {/* Email */}
-                        <a 
-                            href="mailto:shubhamsonake307@gmail.com" 
+                        <a
+                            href="mailto:shubhamsonake307@gmail.com"
                             className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
                         >
                             <div className="bg-green-600 p-1 rounded-full group-hover:scale-110 transition-transform">
@@ -56,9 +57,22 @@ const Aside = () => {
                             <p className="font-semibold text-white text-xs">Email</p>
                         </a>
 
+                        {/* Coding Profiles */}
+                        <a
+                            href="https://linktr.ee/shubh03"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                        >
+                            <div className="bg-red-600 p-1 rounded-full group-hover:scale-110 transition-transform">
+                                <GiLinkedRings className="w-4 h-4 text-white" />
+                            </div>
+                            <p className="font-semibold text-white text-xs">Profiles</p>
+                        </a>
+
                         {/* Phone */}
-                        <a 
-                            href="tel:+91-8208364674" 
+                        <a
+                            href="tel:+91-8208364674"
                             className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
                         >
                             <div className="bg-purple-600 p-1 rounded-full group-hover:scale-110 transition-transform">
@@ -106,9 +120,9 @@ const Aside = () => {
                         {/* Contact Information */}
                         <div className="space-y-4">
                             {/* Resume */}
-                            <a 
+                            <a
                                 target="_blank"
-                                href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk" 
+                                href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk"
                                 className="flex items-center space-x-4 bg-[#16213E] p-3 rounded-lg hover:bg-[#0F3460] transition-colors group"
                             >
                                 <div className="bg-blue-600 p-2 rounded-full group-hover:scale-110 transition-transform">
@@ -121,8 +135,8 @@ const Aside = () => {
                             </a>
 
                             {/* Email */}
-                            <a 
-                                href="mailto:shubhamsonake307@gmail.com" 
+                            <a
+                                href="mailto:shubhamsonake307@gmail.com"
                                 className="flex items-center space-x-4 bg-[#16213E] p-3 rounded-lg hover:bg-[#0F3460] transition-colors group"
                             >
                                 <div className="bg-green-600 p-2 rounded-full group-hover:scale-110 transition-transform">
@@ -136,9 +150,25 @@ const Aside = () => {
                                 </div>
                             </a>
 
+                            {/* coding profiles */}
+                            <a
+                                href="https://linktr.ee/shubh03"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-4 bg-[#16213E] p-3 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                            >
+                                <div className="bg-red-600 p-2 rounded-full group-hover:scale-110 transition-transform">
+                                    <GiLinkedRings className="w-6 h-6 text-white" />
+                                </div>
+                                <div>
+                                    <p className="font-semibold text-white">Profiles</p>
+                                    <p className="text-xs text-gray-400">All my Coding Profiles</p>
+                                </div>
+                            </a>
+
                             {/* Phone */}
-                            <a 
-                                href="tel:+91-8208364674" 
+                            <a
+                                href="tel:+91-8208364674"
                                 className="flex items-center space-x-4 bg-[#16213E] p-3 rounded-lg hover:bg-[#0F3460] transition-colors group"
                             >
                                 <div className="bg-purple-600 p-2 rounded-full group-hover:scale-110 transition-transform">
@@ -149,6 +179,7 @@ const Aside = () => {
                                     <p className="text-xs text-gray-400">+91-8208364674</p>
                                 </div>
                             </a>
+
                         </div>
                     </div>
                 </div>
