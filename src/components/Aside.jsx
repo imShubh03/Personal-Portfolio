@@ -8,78 +8,87 @@ const Aside = () => {
     return (
         <div className="w-full">
             {/* Mobile & Tablet Horizontal Layout */}
-            <div className="lg:hidden bg-[#1A1A2E] text-white flex items-center p-4 rounded-2xl shadow-2xl">
-                {/* Profile Image */}
-                <div className="w-32 h-32 flex-shrink-0 mr-4">
-                    <div className="relative w-full h-full">
-                        <img
-                            src="/images/us.jpg"
-                            alt="Shubham Sonake"
-                            className="w-full h-full object-cover rounded-full border-4 border-[#16213E]"
-                        />
+            <div className="lg:hidden bg-[#1A1A2E] text-white p-4 rounded-2xl shadow-2xl">
+                <div className="flex items-center">
+                    {/* Profile Image */}
+                    <div className="w-32 h-32 flex-shrink-0 mr-4">
+                        <div className="relative w-full h-full">
+                            <img
+                                src="/images/us.jpg"
+                                alt="Shubham Sonake"
+                                className="w-full h-full object-cover rounded-full border-4 border-[#16213E]"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Mobile Content Container */}
+                    <div className="flex-grow">
+                        {/* Name and Title */}
+                        <div className="mb-2">
+                            <h1 className="text-xl font-bold">
+                                Shubham Sonake
+                            </h1>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider">
+                                Fullstack Developer
+                            </p>
+                        </div>
+
+                        {/* Contact Information Vertical Stack */}
+                        <div className="space-y-2">
+                            {/* Resume */}
+                            <a
+                                target="_blank"
+                                href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk"
+                                className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                            >
+                                <div className="bg-blue-600 p-1 rounded-full group-hover:scale-110 transition-transform">
+                                    <MdOutlineContactPage className="w-4 h-4 text-white" />
+                                </div>
+                                <p className="font-semibold text-white text-xs">Resume</p>
+                            </a>
+
+                            {/* Email */}
+                            <a
+                                href="mailto:shubhamsonake307@gmail.com"
+                                className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                            >
+                                <div className="bg-green-600 p-1 rounded-full group-hover:scale-110 transition-transform">
+                                    <GiMailbox className="w-4 h-4 text-white" />
+                                </div>
+                                <p className="font-semibold text-white text-xs">Email</p>
+                            </a>
+
+                            {/* Coding Profiles */}
+                            <a
+                                href="https://linktr.ee/shubh03"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                            >
+                                <div className="bg-red-600 p-1 rounded-full group-hover:scale-110 transition-transform">
+                                    <GiLinkedRings className="w-4 h-4 text-white" />
+                                </div>
+                                <p className="font-semibold text-white text-xs">Profiles</p>
+                            </a>
+
+                            {/* Phone */}
+                            <a
+                                href="tel:+91-8208364674"
+                                className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
+                            >
+                                <div className="bg-purple-600 p-1 rounded-full group-hover:scale-110 transition-transform">
+                                    <GiPhone className="w-4 h-4 text-white" />
+                                </div>
+                                <p className="font-semibold text-white text-xs">Phone</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                {/* Mobile Content Container */}
-                <div className="flex-grow">
-                    {/* Name and Title */}
-                    <div className="mb-2">
-                        <h1 className="text-xl font-bold">
-                            Shubham Sonake
-                        </h1>
-                        <p className="text-xs text-gray-400 uppercase tracking-wider">
-                            Fullstack Developer
-                        </p>
-                    </div>
-
-                    {/* Contact Information Vertical Stack */}
-                    <div className="space-y-2">
-                        {/* Resume */}
-                        <a
-                            target="_blank"
-                            href="https://drive.google.com/file/d/1koWb0637YoMPOvTPyq_9aNatRrBzIpV_/view?usp=drivesdk"
-                            className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
-                        >
-                            <div className="bg-blue-600 p-1 rounded-full group-hover:scale-110 transition-transform">
-                                <MdOutlineContactPage className="w-4 h-4 text-white" />
-                            </div>
-                            <p className="font-semibold text-white text-xs">Resume</p>
-                        </a>
-
-                        {/* Email */}
-                        <a
-                            href="mailto:shubhamsonake307@gmail.com"
-                            className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
-                        >
-                            <div className="bg-green-600 p-1 rounded-full group-hover:scale-110 transition-transform">
-                                <GiMailbox className="w-4 h-4 text-white" />
-                            </div>
-                            <p className="font-semibold text-white text-xs">Email</p>
-                        </a>
-
-                        {/* Coding Profiles */}
-                        <a
-                            href="https://linktr.ee/shubh03"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
-                        >
-                            <div className="bg-red-600 p-1 rounded-full group-hover:scale-110 transition-transform">
-                                <GiLinkedRings className="w-4 h-4 text-white" />
-                            </div>
-                            <p className="font-semibold text-white text-xs">Profiles</p>
-                        </a>
-
-                        {/* Phone */}
-                        <a
-                            href="tel:+91-8208364674"
-                            className="inline-flex items-center space-x-2 bg-[#16213E] px-2 py-1 rounded-lg hover:bg-[#0F3460] transition-colors group"
-                        >
-                            <div className="bg-purple-600 p-1 rounded-full group-hover:scale-110 transition-transform">
-                                <GiPhone className="w-4 h-4 text-white" />
-                            </div>
-                            <p className="font-semibold text-white text-xs">Phone</p>
-                        </a>
+                {/* Social Links Section for Mobile - Added Below Profile */}
+                <div className="mt-4 pt-4 border-t border-[#16213E]">
+                    <div className="flex justify-center space-x-5">
+                        <Socials />
                     </div>
                 </div>
             </div>
@@ -179,7 +188,6 @@ const Aside = () => {
                                     <p className="text-xs text-gray-400">+91-8208364674</p>
                                 </div>
                             </a>
-
                         </div>
                     </div>
                 </div>
